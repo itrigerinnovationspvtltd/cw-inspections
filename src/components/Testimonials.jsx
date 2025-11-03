@@ -64,6 +64,7 @@ const Testimonials = () => {
             key={index}
             className="bg-white border border-gray-200 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300"
           >
+            
             {/* Profile Section */}
             <div className="flex items-center p-4 border-b border-gray-100">
               <img

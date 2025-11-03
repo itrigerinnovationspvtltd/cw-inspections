@@ -94,6 +94,7 @@ const Services = () => {
                   {service.title}
                 </h3>
               </div>
+              
               <p className="text-base text-blue-600 mb-2">{service.price}</p>
               <p className="text-gray-600 text-base mb-4">{service.description}</p>
               <div className="flex justify-center">

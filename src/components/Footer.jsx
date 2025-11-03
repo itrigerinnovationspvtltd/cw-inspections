@@ -7,6 +7,7 @@ const Footer = () => {
         <p className='text-lg'>Copyrigth &copy; 2025 || CW-Inspections</p>
       </div>
     </div>
+    
   )
 }
 

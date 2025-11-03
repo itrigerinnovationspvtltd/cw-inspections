@@ -19,6 +19,7 @@ const About = () => {
 
           <p className="text-gray-700 text-sm sm:text-lg mb-6 leading-relaxed">
             C.W. Inspections proudly offers home and commercial inspections in Baton Rouge and surrounding parishes, covering areas like Downtown, Southdowns, Shenandoah, and the Garden District. We strive to be the top choice for buyers, sellers, investors, and agents. Our focus is on delivering excellent customer service and high-quality, easy-to-read inspection reports.
+            
           </p>
 
           <p className="text-gray-700 text-sm sm:text-lg leading-relaxed font-bold">
