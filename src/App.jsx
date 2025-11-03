@@ -5,6 +5,8 @@ import About from './components/About'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import FloatingButton from './components/FloatingButton'
+import CTA from './components/CTA'
+import Technologies from './components/Technologies'
 function App() {
 
   return (
@@ -15,7 +17,9 @@ function App() {
       <Hero/>
       <About/>
       <Services/>
+      <Technologies/>
       <Testimonials/>
+      <CTA/>
       <Footer/>
       
       </div>

@@ -4,12 +4,12 @@ import { FaCalendarAlt } from "react-icons/fa";
 const FloatingButton = () => {
   return (
     <a
-      href="#contact"
-      className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 rounded-full shadow-lg flex items-center gap-2 z-50 animate-bounce transition-transform duration-300"
+      href="https://app.spectora.com/home-inspectors/cw-inspections-llc/schedule"
+      className="fixed bottom-8 right-6 sm:bottom-14 bg-[#385f82] hover:bg-[#2f4f6d] text-white font-semibold py-3 px-5 rounded-full shadow-lg flex items-center gap-2 z-50 animate-bounce transition-transform duration-300"
       
     >
       <FaCalendarAlt className="text-lg" />
-      <span>Schedule Now</span>
+      <span>Book Your Inspection Now!</span>
     </a>
   );
 };

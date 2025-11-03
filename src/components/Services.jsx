@@ -11,7 +11,7 @@ import {
 
 const services = [
   {
-    icon: <FaHome className="text-3xl" />,
+    icon: <FaHome className="text-3xl text-[#385f82]" />,
     title: "Pre-Purchase Home Inspections",
     price: "Starts at $195",
     description:
@@ -19,7 +19,7 @@ const services = [
     button: "Learn More",
   },
   {
-    icon: <FaBuilding className="text-3xl" />,
+    icon: <FaBuilding className="text-3xl text-[#385f82]" />,
     title: "Commercial Property Inspections",
     price: "Starts at $195",
     description:
@@ -27,7 +27,7 @@ const services = [
     button: "Learn More",
   },
   {
-    icon: <FaHardHat  className="text-3xl" />,
+    icon: <FaHardHat  className="text-3xl text-[#385f82]" />,
     title: "New Construction Inspections",
     price: "Starts at $295",
     description:
@@ -35,7 +35,7 @@ const services = [
     button: "Learn More",
   },
   {
-    icon: <FaClipboardCheck  className="text-3xl " />,
+    icon: <FaClipboardCheck  className="text-3xl text-[#385f82]" />,
     title: "11-Month Warrenty Inspection",
     price: "Starts at $295",
     description:
@@ -43,7 +43,7 @@ const services = [
     button: "Learn More",
   },
   {
-    icon: <FaFileInvoice  className="text-3xl" />,
+    icon: <FaFileInvoice  className="text-3xl text-[#385f82]" />,
     title: "4-Point Insurance Inspection",
     price: "Starts at $295",
     description:
@@ -51,7 +51,7 @@ const services = [
     button: "Learn More",
   },
   {
-    icon: <FaMoneyCheckAlt  className="text-3xl " />,
+    icon: <FaMoneyCheckAlt  className="text-3xl text-[#385f82]" />,
     title: "Construction Bank Draw Inspections",
     price: "Starts at $250",
     description:
@@ -59,7 +59,7 @@ const services = [
     button: "Schedule Now",
   },
   {
-    icon: <FaCogs  className="text-3xl " />,
+    icon: <FaCogs  className="text-3xl text-[#385f82] " />,
     title: "Phase Inspections",
     price: "Starts at $195",
     description:
@@ -73,10 +73,10 @@ const Services = () => {
     <section id="services" className="py-16 bg-gray-50">
       <div className="container mx-auto px-6 text-center">
         {/* Header */}
-        <h2 className="text-2xl sm:text-5xl font-bold text-gray-800 mb-2">
+        <h2 className="text-2xl sm:text-5xl font-bold text-[#385f82] mb-2">
           Our Inspection Services
         </h2>
-        <p className="text-gray-600 mb-12 text-xs sm:text-base">
+        <p className="text-gray-500 mb-12 text-xs sm:text-base">
           Thorough inspection services to protect your investment and deliver
           peace of mind.
         </p>
@@ -90,15 +90,15 @@ const Services = () => {
             >
               <div className="flex items-center gap-3 mb-3">
                 {service.icon}
-                <h3 className="text-xl font-semibold text-gray-800">
+                <h3 className="text-xl font-semibold text-[#385f82]">
                   {service.title}
                 </h3>
               </div>
               
-              <p className="text-base text-blue-600 mb-2">{service.price}</p>
+              <p className="text-base text-[#385f82] mb-2">{service.price}</p>
               <p className="text-gray-600 text-base mb-4">{service.description}</p>
               <div className="flex justify-center">
-              <button className="bg-blue-600 w-[50%] text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">
+              <button className="bg-[#385f82] w-[50%] text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">
                 {service.button}
               </button>
               </div>

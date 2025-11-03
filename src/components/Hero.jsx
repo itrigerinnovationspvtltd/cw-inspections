@@ -1,12 +1,13 @@
 import React from "react";
+import bgimg from '../assets/bgImage.webp'
 
 const Hero = () => {
   return (
     <section id="hero"
-      className="relative h-[85vh] sm:h-screen bg-cover bg-center flex items-center justify-center"
+      className="relative h-[70vh] sm:h-screen bg-cover bg-center flex items-center justify-center"
       style={{
         backgroundImage:
-          "url('/bgImage.jpg')",
+          `url(${bgimg})`,
       }}
     >
       
@@ -26,12 +27,12 @@ Residential, Commercial & Multi-Family. Sewer Scopes.
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-md transition">
+          <a href="https://app.spectora.com/home-inspectors/cw-inspections-llc/schedule" className="bg-[#385f82] hover:bg-[#2f4f6d] border-2 text-white font-semibold py-3 px-6 rounded-md transition">
             Schedule Now
-          </button>
-          <button className="border-2 border-white hover:bg-white hover:text-blue-600 font-semibold py-3 px-6 rounded-md transition">
+          </a>
+          <a href="tel:225-803-8821" className="border-2 border-white hover:bg-white hover:text-[#385f82] font-semibold py-3 px-6 rounded-md transition">
             Call Us
-          </button>
+          </a>
         </div>
       </div>
     </section>

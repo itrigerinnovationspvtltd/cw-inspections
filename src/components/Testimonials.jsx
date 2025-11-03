@@ -53,7 +53,7 @@ const reviews = [
 const Testimonials = () => {
   return (
     <section id="testimonial" className="max-w-7xl mx-auto py-16 sm:py-24 px-6">
-      <h2 className="text-center text-3xl sm:text-5xl font-bold text-gray-800 mb-12">
+      <h2 className="text-center text-3xl sm:text-5xl font-bold text-[#385f82] mb-12">
         What Our Customers Say on Google
       </h2>
 
@@ -73,7 +73,7 @@ const Testimonials = () => {
                 className="w-12 h-12 rounded-full object-cover mr-3"
               />
               <div>
-                <h3 className="font-semibold text-[#202124]">{item.name}</h3>
+                <h3 className="font-semibold text-[#385f82]">{item.name}</h3>
                 <div className="flex items-center text-xs sm:text-sm text-gray-500">
                   <FaCheckCircle className="text-blue-500 mr-1" />
                   <span>Verified Review • {item.date}</span>
