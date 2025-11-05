@@ -38,7 +38,7 @@ const About = () => {
           </div>
 
           
-           <ul className="list-disc pl-6 space-y-3 text-gray-700 text-base sm:text-lg leading-relaxed">
+           <ul className="list-disc pl-6 space-y-3 text-gray-700 text-base sm:text-lg leading-relaxed text-left">
             <li>Over a decade of trusted inspection experience.</li>
             <li>Strong foundation in construction trades.</li>
             <li>Interactive, easy-to-read digital reports.</li>
