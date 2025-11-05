@@ -4,36 +4,30 @@ import { motion } from "framer-motion";
 import tech1 from "../assets/tech1.webp";
 import tech2 from "../assets/tech2.webp";
 import tech3 from "../assets/tech3.webp";
-import tech4 from "../assets/tech4.webp";
 
 const Technologies = () => {
   const techItems = [
     {
-      id: 1,
-      title: "A Local Company",
-      description:
-        "C.W. Inspections is a Baton Rouge-based company offering reliable home inspections. We use advanced tools and provide clear, easy-to-read reports with same-day delivery. “No Secret Home Inspector Code!” You don’t need a code breaker to understand our inspection reports. Our goal is to make sure that home buyers clearly understand any concerns we find during their home inspection using everyday language. We clearly explain why a finding is a concern, with a clear recommendation to address it. Our goal is not to try to impress you with “Secret Home Inspector Speak”",
-      image: tech1,
-    },
-    {
-      id: 2,
-      title: "FAA Licensed Drone Technology",
-      description:
-        "We use drone inspections to reach roofs and areas that are unsafe or inaccessible. Our FAA-certified drone pilot ensures accurate visuals from every angle. As an FAA licensed Remote Pilot, we can use our state of the art DJI Mavic drone to see what some other inspectors can’t. We’re one of only a few Baton Rouge home inspection companies that offer drone roof inspections. Although there is no substitute for actually walking on a roof, sometimes it’s not safe due to steep pitch or height. But the drone gets us up there with no problem!",
-      image: tech2,
-    },
+  id: 1,
+  title: "Trusted Local Expertise",
+  description:
+    "As a locally owned and operated company, we take pride in serving our community with honesty and professionalism. Our team understands the unique needs and challenges of homes in the area, ensuring every inspection is thorough and personalized. When you choose us, you’re choosing a company that values trust, transparency, and long-term relationships. Experience the difference of working with true local experts!",
+  image: tech1,
+},
+
+   {
+  id: 2,
+  title: "Sewer Scopes",
+  description:
+    "Our sewer scope inspection utilizes high-resolution camera technology to evaluate the interior condition of your home’s sewer line. This process allows us to accurately identify blockages, cracks, corrosion, and root intrusion that may compromise the plumbing system. Early detection helps prevent costly repairs and ensures the integrity of your drainage system.",
+  image: tech2,
+},
+
     {
       id: 3,
       title: "FLIR Infrared Technology",
       description:
         "Our infrared camera detects hidden issues like insulation problems, moisture, and electrical hazards. This helps identify issues before they become costly repairs. With our FLIR Infrared Camera, we have the ability to assess insulation problems, moisture intrusion, plumbing leaks, and electrical hazards. We’d love to show you what it can do! Shouldn’t your Baton Rouge home inspection involve the latest technology!",
-      image: tech4,
-    },
-    {
-      id: 4,
-      title: "Crawlspace Inspection Vehicle",
-      description:
-        "Our custom-built Crawlspace Inspection Vehicle allows us to safely and efficiently inspect tight or hard-to-reach crawlspaces without disturbing your property. Equipped with cameras and lighting, it provides clear visuals of areas that are otherwise inaccessible, helping us detect structural issues, moisture, and pests with precision.",
       image: tech3,
     },
   ];

@@ -22,6 +22,14 @@ const About = () => {
             C.W. Inspections proudly offers home and commercial inspections in Baton Rouge and surrounding parishes, covering areas like Downtown, Southdowns, Shenandoah, and the Garden District. We strive to be the top choice for buyers, sellers, investors, and agents. Our focus is on delivering excellent customer service            
           </p>
 
+              <p className="text-gray-700 text-sm sm:text-lg mb-6 leading-relaxed">
+            We serve a wide range of communities across Louisiana including{" "}
+            <span className="font-semibold text-[#385f82] cursor-pointer">
+              Baton Rouge, Denham Springs, Prairieville, Gonzales, Zachary, Central, Ethel, and Walker
+            </span>.  
+            Whether you’re in the heart of the city or in nearby neighborhoods, our team ensures the same professional, detailed, and technology-driven inspection experience.
+          </p>
+
           <div className="bg-white/70 border-l-4 border-[#385f82] px-5 py-4 rounded-lg shadow-sm mb-6">
             <p className="text-gray-800 text-base sm:text-lg italic font-semibold">
               “We utilize advanced technology to deliver detailed,

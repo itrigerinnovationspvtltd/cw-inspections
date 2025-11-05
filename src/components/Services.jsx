@@ -13,7 +13,6 @@ const services = [
   {
     icon: <FaHome className="text-3xl text-[#385f82]" />,
     title: "Pre-Purchase Home Inspections",
-    price: "Starts at $195",
     description:
       "A detailed inspection of the property before purchase to identify issues and ensure you make an informed, confident investment decision.",
     button: "Learn More",
@@ -21,7 +20,6 @@ const services = [
   {
     icon: <FaBuilding className="text-3xl text-[#385f82]" />,
     title: "Commercial Property Inspections",
-    price: "Starts at $195",
     description:
       "Comprehensive evaluation of commercial spaces to assess structural integrity, safety systems, and maintenance needs—helping protect your business investment.",
     button: "Learn More",
@@ -29,7 +27,6 @@ const services = [
   {
     icon: <FaHardHat  className="text-3xl text-[#385f82]" />,
     title: "New Construction Inspections",
-    price: "Starts at $295",
     description:
       "Step-by-step inspections during construction to ensure quality, safety, and code compliance before your new home is completed.",
     button: "Learn More",
@@ -37,7 +34,6 @@ const services = [
   {
     icon: <FaClipboardCheck  className="text-3xl text-[#385f82]" />,
     title: "11-Month Warrenty Inspection",
-    price: "Starts at $295",
     description:
       "A complete inspection before your builder’s 1-year warranty expires to identify defects and ensure timely repairs at no extra cost to you.",
     button: "Learn More",
@@ -45,7 +41,6 @@ const services = [
   {
     icon: <FaFileInvoice  className="text-3xl text-[#385f82]" />,
     title: "4-Point Insurance Inspection",
-    price: "Starts at $295",
     description:
       "Focused inspection covering the roof, HVAC, plumbing, and electrical systems — required by insurance companies for older homes.",
     button: "Learn More",
@@ -53,15 +48,13 @@ const services = [
   {
     icon: <FaMoneyCheckAlt  className="text-3xl text-[#385f82]" />,
     title: "Construction Bank Draw Inspections",
-    price: "Starts at $250",
     description:
       "Detailed progress inspections for lenders and builders to verify completed work before each construction payment draw.",
-    button: "Schedule Now",
+    button: "Learn More",
   },
   {
     icon: <FaCogs  className="text-3xl text-[#385f82] " />,
     title: "Phase Inspections",
-    price: "Starts at $195",
     description:
       "Inspection at each critical construction phase—foundation, framing, and final—to ensure quality workmanship and code compliance.",
     button: "Learn More",
@@ -93,12 +86,10 @@ const Services = () => {
                 <h3 className="text-xl font-semibold text-[#385f82]">
                   {service.title}
                 </h3>
-              </div>
-              
-              <p className="text-base text-[#385f82] mb-2">{service.price}</p>
+              </div>              
               <p className="text-gray-600 text-base mb-4">{service.description}</p>
               <div className="flex justify-center">
-              <button className="bg-[#385f82] w-[50%] text-white py-2 px-4 rounded-md hover:bg-blue-700 transition">
+              <button className="bg-[#385f82] w-[50%] text-white py-2 px-4 rounded-md hover:bg-[#2f4f6d] transition">
                 {service.button}
               </button>
               </div>
