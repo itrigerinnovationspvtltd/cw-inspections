@@ -9,7 +9,7 @@ const Technologies = () => {
   const techItems = [
     {
   id: 1,
-  title: "Trusted Local Expertise",
+  title: "About Us",
   description:
     "As a locally owned and operated company, we take pride in serving our community with honesty and professionalism. Our team understands the unique needs and challenges of homes in the area, ensuring every inspection is thorough and personalized. When you choose us, you’re choosing a company that values trust, transparency, and long-term relationships. Experience the difference of working with true local experts!",
   image: tech1,
