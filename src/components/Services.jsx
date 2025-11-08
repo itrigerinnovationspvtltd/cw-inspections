@@ -26,7 +26,7 @@ const services = [
     icon: <FaHardHat  className="text-3xl text-[#385f82]" />,
     title: "New Construction Inspections",
     description:
-      "Step-by-step inspections during construction to ensure quality, safety, and code compliance before your new home is completed.",
+      "Step-by-step inspections during construction to ensure quality, safety, before your new home is completed.",
   },
   {
     icon: <FaClipboardCheck  className="text-3xl text-[#385f82]" />,
